@@ -1,0 +1,61 @@
+{
+  "name": "react-container-app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/ui-react": "^4.6.0",
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "aws-amplify": "^5.1.3",
+    "html-webpack-plugin": "^5.5.0",
+    "mdb-react-ui-kit": "^5.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules build",
+    "build": "npm run lint && webpack --mode production",
+    "lint": "npx eslint . --ext .ts,.tsx --fix",
+    "build:dev": "npm run lint && webpack --mode development",
+    "build:start": "npm run lint &&  cd build && PORT=8080 npx serve",
+    "start": "npm run lint && npx kill-port 8080 && webpack serve --open --mode development",
+    "start:live": "npm run lint && webpack serve --open --mode development --live-reload --hot"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "compression-webpack-plugin": "^10.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "eslint": "^8.37.0",
+    "kill-port": "^2.0.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1",
+    "zlib": "^1.0.5"
+  },
+  "overrides": {
+    "react-scripts": {
+      "typescript": "^5"
+    }
+  }
+}

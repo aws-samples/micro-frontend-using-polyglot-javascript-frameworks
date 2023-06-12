@@ -1,0 +1,30 @@
+.mainContainer {
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.ContanierHeader {
+    text-align: left;
+    padding-left: 1%;
+    text-size-adjust: 10%;
+    font-size: 0.775em;
+}
+
+.reactChartsDataApp {
+    padding-top: 10%;
+}
+
+.BMIChartsAppHeader {
+    text-align: left;
+    padding-left: 1%;
+    text-size-adjust: 10%;
+    font-size: 0.775em;
+}
+
+.BMIDataAppHeader {
+    text-align: left;
+    padding-left: 1%;
+    text-size-adjust: 10%;
+    font-size: 0.775em;
+}
+

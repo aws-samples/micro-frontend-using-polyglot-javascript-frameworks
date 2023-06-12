@@ -1,0 +1,20 @@
+.chartsDataAppForm {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.chartsDataApp {
+    padding-top: 5%;
+    padding-bottom: 16%;
+    background-color: rgb(237 242 247);;
+}
+
+.chartsDataAppText {
+    padding-top: 3%;
+    color: darkblue;
+}
+
+.submitButton {
+    padding-top: 4%;
+}
