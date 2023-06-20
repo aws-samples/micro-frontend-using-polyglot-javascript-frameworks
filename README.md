@@ -35,7 +35,7 @@ Micro-Frontend helped us to achieve the following:
 
 </dd></dl>
 
-## 1: Why Micro-Frontend  <a name="WhyMicroFrontend"></a>
+## 1: Why Micro-Frontend <a name="WhyMicroFrontend"></a>
 <dl><dd>
 
 ### a) Single Responsibility
@@ -92,7 +92,6 @@ Module Federation is a native plug-in for Webpack 5, that allows sharing chunks 
 Expose the component from the <i>/react-charts-data-app/webpack.config.js</i> file
 
 ![react-charts-data-app-exposing-component](/additional-assets/react-charts-data-app-exposing-component.png)
-
 
 #### ii: <ins> Add React App Microservice as a remote app in the React Container </ins>
 
@@ -172,7 +171,7 @@ Backend infrastructure code is automated using AWS Cloud Development Kit (AWS CD
 
 </dd></dl>
 
-## 5: Architecture Diagram  <a name="ArchitectureDiagram"></a> 
+## 5: Architecture Diagram <a name="ArchitectureDiagram"></a> 
 
 <dl><dd>
 
