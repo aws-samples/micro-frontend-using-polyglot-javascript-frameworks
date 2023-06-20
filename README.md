@@ -102,7 +102,7 @@ React App Microservice remote in the <i>/react-container-app/webpack.config.js</
 
 #### iii: <u> Use the imported component in the React Container </u>
 
-Use the imported component in the container application in the <i>react-container-app/src/components/container/index.tsx</i> file
+Use the imported component within the container application in the <i>react-container-app/src/components/container/index.tsx</i> file
 
 ![react-charts-in-react-container](/additional-assets/react-charts-in-react-container.png)
 
@@ -135,7 +135,7 @@ Mount Angular App on <i>/react-container-app/src/utils/external-angular-app.jsx<
 
 #### v: <u> Use the mounted component in the React Container </u>
 
-Use the mounted component in the container application in the <i>/react-container-app/src/components/container/index.tsx</i> file
+Use the mounted component within the container application in the <i>/react-container-app/src/components/container/index.tsx</i> file
 
 ![angular-charts-app-in-react-container](/additional-assets/angular-charts-app-in-react-container.png)
 
