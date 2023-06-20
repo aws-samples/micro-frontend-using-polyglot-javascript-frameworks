@@ -48,7 +48,7 @@ Infrastructure automation is performed using AWS CDK written in Typescript. CDK 
 #### Step 1: Clone Repository
 
 ```console
-git clone 
+git clone https://github.com/aws-samples/micro-frontend-using-polyglot-javascript-frameworks.git
 cd backend
 ```
 

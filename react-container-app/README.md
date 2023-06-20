@@ -19,7 +19,7 @@ AWS Amplify is leveraged hosting the app, configuring the CI/CD, and setting up 
 #### Step 1: Clone Repository
 
 ```console
-git clone
+git clone https://github.com/aws-samples/micro-frontend-using-polyglot-javascript-frameworks.git
 cd opensource-microfrontend/react-container-app
 ```
 

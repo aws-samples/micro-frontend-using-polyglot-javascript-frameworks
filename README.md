@@ -87,20 +87,22 @@ Module Federation is a native plug-in for Webpack 5, that allows sharing chunks 
 ### b) <u>Steps for importing React App in React Container</u>
 <dl><dd>
 
-#### i: <u> Exposing the React APP Component</u>
+#### i: <u> Expose the React APP Component</u>
 
-Exposing the component from the webpack.config.js file
+Expose the component from the <i>/react-charts-data-app/webpack.config.js</i> file
 
 ![react-charts-data-app-exposing-component](/additional-assets/react-charts-data-app-exposing-component.png)
 
 
-#### ii: <u> Importing the React APP Component in the React Container </u>
+#### ii: <u> Add React App Microservice as a remote app in the React Container </u>
 
-Importing the component from the remote in the webpack.config.js file
+React App Microservice remote in the <i>/react-container-app/webpack.config.js</i> file
 
 ![react-container-app-importing-react-component](/additional-assets/react-container-app-importing-react-component.png)
 
-Importing the component and then could be use as simple React Component 
+#### iii: <u> Use the imported component in the React Container </u>
+
+Use the imported component in the container application in the <i>react-container-app/src/components/container/index.tsx</i> file
 
 ![react-charts-in-react-container](/additional-assets/react-charts-in-react-container.png)
 
@@ -109,15 +111,33 @@ Importing the component and then could be use as simple React Component
 ### c) <u>Steps for importing Angular App in React Container </u>
 <dl><dd>
 
-#### i: Bootstrapping the Angular App 
+#### i: <u> Bootstrap the Angular App  </u>
 
 ![bootstraping-angular-app](/additional-assets/bootstraping-angular-app.png)
 
-#### ii: Exposing the Angular APP Component
+#### ii: <u> Expose the Angular APP Component </u>
 
-Exposing the component from the webpack.config.js file
+Expose the component from the <i>/angular-charts-app/webpack.config.js</i> file
 
 ![angular-app-exposing-component.png](/additional-assets/angular-app-exposing-component.png)
+
+#### iii: <u> Add Angular App Microservice as a remote app in the React Container </u>
+
+Angular App Microservice remote in the <i>/react-container-app/webpack.config.js</i> file
+
+![react-container-app-importing-angular-component.png](/additional-assets/react-container-app-importing-angular-component.png)
+
+#### iv: <u> Mount Angular App Microservice in the React Container </u>
+
+Mount Angular App on <i>/react-container-app/src/utils/external-angular-app.jsx</i> file
+
+![mount-angular-app-on-react-container-app.png](/additional-assets/mount-angular-app-on-react-container-app.png)
+
+#### v: <u> Use the mounted component in the React Container </u>
+
+Use the mounted component in the container application in the <i>/react-container-app/src/components/container/index.tsx</i> file
+
+![angular-charts-app-in-react-container](/additional-assets/angular-charts-app-in-react-container.png)
 
 </dd></dl>
 </dd></dl>
