@@ -38,7 +38,7 @@ Micro-Frontend helped us to achieve the following:
 ## 1: Why Micro-Frontend  <a name="WhyMicroFrontend"></a>
 <dl><dd>
 
-### a) <u>Single Responsibility </u>
+### a) Single Responsibility
 Each Module/component could be built by an individual team. The individual would be responsible for all the development, testing, release and observability of the Module/component.
 
 ### b) Technology Agnostic
@@ -76,7 +76,7 @@ Micro-Frontend Charts Application provides a sample way to implement Micro-Front
 
 <dl><dd>
 
-### a) <u>Module Federation</u>
+### a) <ins>Module Federation</ins>
 
 We have leveraged Webpack 5 and the Module Federation plugin to implement our Micro-Frontend Sample.
 
@@ -84,23 +84,23 @@ Module Federation is a native plug-in for Webpack 5, that allows sharing chunks 
 
 ![ModuleFederation](/additional-assets/webpack-modulefederation.png)
 
-### b) <u>Steps for importing React App in React Container</u>
+### b) <ins>Steps for importing React App in React Container</ins>
 <dl><dd>
 
-#### i: <u> Expose the React APP Component</u>
+#### i: <ins> Expose the React APP Component</ins>
 
 Expose the component from the <i>/react-charts-data-app/webpack.config.js</i> file
 
 ![react-charts-data-app-exposing-component](/additional-assets/react-charts-data-app-exposing-component.png)
 
 
-#### ii: <u> Add React App Microservice as a remote app in the React Container </u>
+#### ii: <ins> Add React App Microservice as a remote app in the React Container </ins>
 
 React App Microservice remote in the <i>/react-container-app/webpack.config.js</i> file
 
 ![react-container-app-importing-react-component](/additional-assets/react-container-app-importing-react-component.png)
 
-#### iii: <u> Use the imported component in the React Container </u>
+#### iii: <ins> Use the imported component in the React Container </ins>
 
 Use the imported component within the container application in the <i>react-container-app/src/components/container/index.tsx</i> file
 
@@ -108,32 +108,32 @@ Use the imported component within the container application in the <i>react-cont
 
 </dd></dl>
 
-### c) <u>Steps for importing Angular App in React Container </u>
+### c) <ins>Steps for importing Angular App in React Container </ins>
 <dl><dd>
 
-#### i: <u> Bootstrap the Angular App  </u>
+#### i: <ins> Bootstrap the Angular App  </ins>
 
 ![bootstraping-angular-app](/additional-assets/bootstraping-angular-app.png)
 
-#### ii: <u> Expose the Angular APP Component </u>
+#### ii: <ins> Expose the Angular APP Component </ins>
 
 Expose the component from the <i>/angular-charts-app/webpack.config.js</i> file
 
 ![angular-app-exposing-component.png](/additional-assets/angular-app-exposing-component.png)
 
-#### iii: <u> Add Angular App Microservice as a remote app in the React Container </u>
+#### iii: <ins> Add Angular App Microservice as a remote app in the React Container </ins>
 
 Angular App Microservice remote in the <i>/react-container-app/webpack.config.js</i> file
 
 ![react-container-app-importing-angular-component.png](/additional-assets/react-container-app-importing-angular-component.png)
 
-#### iv: <u> Mount Angular App Microservice in the React Container </u>
+#### iv: <ins> Mount Angular App Microservice in the React Container </ins>
 
 Mount Angular App on <i>/react-container-app/src/utils/external-angular-app.jsx</i> file
 
 ![mount-angular-app-on-react-container-app.png](/additional-assets/mount-angular-app-on-react-container-app.png)
 
-#### v: <u> Use the mounted component in the React Container </u>
+#### v: <ins> Use the mounted component in the React Container </ins>
 
 Use the mounted component within the container application in the <i>/react-container-app/src/components/container/index.tsx</i> file
 
@@ -150,7 +150,7 @@ For the Micro-Frontend sample implementation on AWS, we have chosen Angular and 
 
 <dl><dd>
 
-### a) <u>Micro-Frontend Application</u>
+### a) <ins>Micro-Frontend Application</ins>
 
 [AWS Amplify](https://aws.amazon.com/amplify/) is leveraged to automate the process of deployment on AWS. Using AWS Amplify, we were able to deploy and add authentication to the application just by using a few user-friendly commands.
 
@@ -164,7 +164,7 @@ Micro-Frontend Apps | Purpose |
 | React Charts Data App | Contains charts fitters leveraged by Angular Charts App to create charts |
 | React Container App | Container App containing React Charts Data App and Angular Charts App  |
 
-### b) <u>Backend Application</u>
+### b) <ins>Backend Application</ins>
 
 For the backend, we have leveraged NodeJS code deployed on [AWS Lambda functions](https://aws.amazon.com/lambda/) to persist and read data from the [AWS DynamoDB](https://aws.amazon.com/dynamodb/) leveraged as a NoSQL Database.
 
@@ -196,7 +196,7 @@ Name | Version |
 | [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) | 2.7.35 |
 | [AMPLIFY CLI](https://docs.amplify.aws/cli/start/install/) | 10.7.1 |
 
-### <u>Prerequisite verification</u>
+### <ins>Prerequisite verification</ins>
 
 Check if you have all the required prerequisites by executing the following commands, and they would return the versions. 
 
