@@ -49,7 +49,7 @@ Infrastructure automation is performed using AWS CDK written in Typescript. CDK 
 
 ```console
 git clone https://github.com/aws-samples/micro-frontend-using-polyglot-javascript-frameworks.git
-cd backend
+cd micro-frontend-using-polyglot-javascript-frameworks/backend
 ```
 
 #### Step 2: Install Dependencies 
@@ -58,13 +58,21 @@ cd backend
 npm install
 ```
 
+#### Step 2: Bootstrap Environment
+
+If this is the first time you will be deploying the CDK stack on, you need to bootstrap the environment. Bootstrapping creates resources that may be needed to deploy your stack like an Amazon S3 bucket for storing files and IAM roles that grant permissions needed to perform deployments.
+
+```console
+cdk bootstrap
+```
+
 #### Step 3: Deploy infrastructure on AWS 
 
 ```console
 npm run deploy
 ```
 
-#### Step 3: Getting the Backend API URI 
+#### Step 4: Getting the Backend API URI 
 
 Once the CDK deployment is successful, go to the *cdk-outputs.json* file present in the backend app, and copy the value of "APIGatewayURL". We would need API URL for the frontend apps. 
 

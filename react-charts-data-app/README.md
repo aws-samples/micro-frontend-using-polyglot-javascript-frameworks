@@ -18,7 +18,7 @@ Make sure we have Amplify CLI up and running, and for installation use the [Ampl
 
 ```console
 git clone https://github.com/aws-samples/micro-frontend-using-polyglot-javascript-frameworks.git
-cd opensource-microfrontend/react-charts-data-app
+cd micro-frontend-using-polyglot-javascript-frameworks/react-charts-data-app
 ```
 
 #### Step 2: Install Dependencies 

@@ -202,17 +202,22 @@ Check if you have all the required prerequisites by executing the following comm
 1: NodeJS
 
 ```console 
-    node -v
+node -v
 ```
 
 2: Node
 ```console 
-    cdk --version
+cdk --version
 ```
 
-3: AWS CLI
+3: Amplify CLI
 ```console 
-    aws --version
+amplify -v
+```
+
+4: AWS CLI
+```console 
+aws --version
 ```
 
 </dd></dl>

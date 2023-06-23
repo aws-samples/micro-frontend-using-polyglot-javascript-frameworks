@@ -18,7 +18,7 @@ Make sure we have Amplify CLI up and running, and for installation use the [Ampl
 
 ```console
 git clone https://github.com/aws-samples/micro-frontend-using-polyglot-javascript-frameworks.git
-cd opensource-microfrontend/angular-charts-app
+cd micro-frontend-using-polyglot-javascript-frameworks/angular-charts-app
 ```
 
 #### Step 2: Install Dependencies 
