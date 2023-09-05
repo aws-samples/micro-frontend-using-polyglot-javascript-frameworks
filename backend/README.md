@@ -58,7 +58,13 @@ cd micro-frontend-using-polyglot-javascript-frameworks/backend
 npm install
 ```
 
-#### Step 2: Bootstrap Environment
+#### Step 3: Complie Lambda function code (TypeScript to Javascript) 
+
+```console
+npm run build:lambda
+```
+
+#### Step 4: Bootstrap Environment
 
 If this is the first time you will be deploying the CDK stack on, you need to bootstrap the environment. Bootstrapping creates resources that may be needed to deploy your stack like an Amazon S3 bucket for storing files and IAM roles that grant permissions needed to perform deployments.
 
@@ -66,13 +72,13 @@ If this is the first time you will be deploying the CDK stack on, you need to bo
 cdk bootstrap
 ```
 
-#### Step 3: Deploy infrastructure on AWS 
+#### Step 5: Deploy infrastructure on AWS 
 
 ```console
 npm run deploy
 ```
 
-#### Step 4: Getting the Backend API URI 
+#### Step 6: Getting the Backend API URI 
 
 Once the CDK deployment is successful, go to the *cdk-outputs.json* file present in the backend app, and copy the value of "APIGatewayURL". We would need API URL for the frontend apps. 
 
