@@ -21,7 +21,7 @@ Micro-Frontend helped us to achieve the following:
 
 <dl><dd>
 
-#### 1. [Why Micro-Frontend](#1-why-micro-frontend-1)
+#### 1. [Why Micro-Frontend](#why-micro-frontend)
 #### 2. [Objective of the sample application](#2-objective-of-the-sample-application-1)
 #### 3. [Micro-Frontend Key Concepts](#3-micro-frontend-key-concepts-1)
 #### 4. [Sample Overview](#4-sample-overview-1)
@@ -35,7 +35,7 @@ Micro-Frontend helped us to achieve the following:
 
 </dd></dl>
 
-## 1: Why Micro-Frontend <a name="WhyMicroFrontend"></a>
+## 1: Why Micro-Frontend <a name="why-micro-frontend"></a>
 <dl><dd>
 
 ### a) Single Responsibility
