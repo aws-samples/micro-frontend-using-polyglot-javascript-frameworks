@@ -22,16 +22,16 @@ Micro-Frontend helped us to achieve the following:
 <dl><dd>
 
 #### 1. [Why Micro-Frontend](#why-micro-frontend)
-#### 2. [Objective of the sample application](#2-objective-of-the-sample-application-1)
-#### 3. [Micro-Frontend Key Concepts](#3-micro-frontend-key-concepts-1)
-#### 4. [Sample Overview](#4-sample-overview-1)
-#### 5. [Architecture Diagram](#5-architecture-diagram-1)
-#### 6. [Requirements](#6-requirements-1)
-#### 7. [Deployment of the Sample Application on AWS](#7-deployment-of-the-sample-application-on-aws-1)
-#### 8. [Cleanup](#8-cleanup-1)
-#### 9. [References](#9-references-1)
-#### 10. [Security](#10-security-1)
-#### 11. [License](#10-license-1)
+#### 2. [Objective of the sample application](#objective-of-the-sample-application)
+#### 3. [Micro-Frontend Key Concepts](#micro-frontend-key-concepts)
+#### 4. [Sample Overview](#sample-overview)
+#### 5. [Architecture Diagram](#architecture-diagram)
+#### 6. [Requirements](#requirements)
+#### 7. [Deployment of the Sample Application on AWS](#deployment-of-the-sample-application-on-aws)
+#### 8. [Cleanup](#cleanup)
+#### 9. [References](#references)
+#### 10. [Security](#security)
+#### 11. [License](#license)
 
 </dd></dl>
 
@@ -55,7 +55,7 @@ Micro-Frontend teams are smaller and can work individually without disrupting ot
 
 </dd></dl>
 
-## 2: Objective of the sample application <a name="Objective"></a>
+## 2: Objective of the sample application <a name="objective-of-the-sample-application"></a>
 
 <dl><dd>
 
@@ -72,7 +72,7 @@ Micro-Frontend Charts Application provides a sample way to implement Micro-Front
 
 </dd></dl>
 
-## 3: Micro-Frontend Key Concepts <a name="KeyConcepts"></a>
+## 3: Micro-Frontend Key Concepts <a name="micro-frontend-key-concepts"></a>
 
 <dl><dd>
 
@@ -141,7 +141,7 @@ Use the mounted component within the container application in the <i>/react-cont
 </dd></dl>
 </dd></dl>
 
-## 4: Sample Overview <a name="SampleOverview"></a>
+## 4: Sample Overview <a name="sample-overview"></a>
 
 <dl><dd>
 
@@ -171,7 +171,7 @@ Backend infrastructure code is automated using AWS Cloud Development Kit (AWS CD
 
 </dd></dl>
 
-## 5: Architecture Diagram <a name="ArchitectureDiagram"></a> 
+## 5: Architecture Diagram <a name="architecture-diagram"></a> 
 
 <dl><dd>
 
@@ -181,7 +181,7 @@ Backend infrastructure code is automated using AWS Cloud Development Kit (AWS CD
 
 </dd></dl>
 
-## 6: Requirements <a name="Requirements"></a>
+## 6: Requirements <a name="requirements"></a>
 
 <dl><dd>
 
@@ -222,7 +222,7 @@ aws --version
 
 </dd></dl>
 
-## 7: Deployment of the Sample Application on AWS  <a name="Deployment"></a>
+## 7: Deployment of the Sample Application on AWS  <a name="deployment-of-the-sample-application-on-aws"></a>
 
 <dl><dd>
 
@@ -244,7 +244,7 @@ Once the above steps are performed, open React Container App's Domain URL and we
 
 </dd></dl>
 
-## 8: Cleanup <a name="Cleanup"></a>
+## 8: Cleanup <a name="cleanup"></a>
 
 <dl><dd>
 
@@ -260,7 +260,7 @@ Cleanup requires few commands to be executed for each of the applications deploy
 
  </dd></dl>
 
-## 9: References <a name="References"></a>
+## 9: References <a name="references"></a>
 
 <dl><dd>
 
@@ -268,11 +268,11 @@ Cleanup requires few commands to be executed for each of the applications deploy
 - [Buildingmicrofrontends.com](https://www.buildingmicrofrontends.com/)
  </dd></dl>
 
-## 10: Security <a name="Security"></a>
+## 10: Security <a name="security"></a>
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
 
-## 11: License <a name="License"></a>
+## 11: License <a name="license"></a>
 
 <dl><dd>
 This sample code is made available under the MIT-0 license. See the LICENSE file.
