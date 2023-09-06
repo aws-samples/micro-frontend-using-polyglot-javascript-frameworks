@@ -191,7 +191,7 @@ Name | Version |
 | [Typescript](https://www.typescriptlang.org/download) | 4.8.4 |
 | [ReactJS](https://react-cn.github.io/react/downloads.html) | 18.2.0 |
 | [Angular](https://angular.io/guide/setup-local) | 15.2.0 |
-| [CDK CLI](https://www.npmjs.com/package/aws-cdk-lib) | 2.81.0 |
+| [CDK CLI](https://www.npmjs.com/package/cdk) | 2.92.0 |
 | [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) | 2.7.35 |
 | [AMPLIFY CLI](https://docs.amplify.aws/cli/start/install/) | 10.7.1 |
 

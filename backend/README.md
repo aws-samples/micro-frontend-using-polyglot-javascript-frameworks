@@ -58,15 +58,15 @@ cd micro-frontend-using-polyglot-javascript-frameworks/backend
 npm install
 ```
 
-#### Step 3: Complie Lambda function code (TypeScript to Javascript) 
+#### Step 3: Compile Lambda function code (TypeScript to Javascript) 
 
 ```console
 npm run build:lambda
 ```
 
-#### Step 4: Bootstrap Environment
+#### Step 4: Bootstrap Environment (Optional)
 
-If this is the first time you will be deploying the CDK stack on, you need to bootstrap the environment. Bootstrapping creates resources that may be needed to deploy your stack like an Amazon S3 bucket for storing files and IAM roles that grant permissions needed to perform deployments.
+Bootstrap environment is requried only for the first time when are running CDK on the AWS account. Bootstrapping creates resources that may be needed to deploy your stack like an Amazon S3 bucket for storing files and IAM roles that grant permissions needed to perform deployments.
 
 ```console
 cdk bootstrap
